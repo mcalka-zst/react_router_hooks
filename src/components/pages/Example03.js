@@ -17,7 +17,7 @@ const Example03 = () =>{
         <div>
             <Menu/>
             <main>
-                <h1>Przykłady użycia hook'a useState </h1>
+                <h1>Przykłady użycia hook'a useRef </h1>
                 <h3>Witaj {name}</h3>
                 <div className='input'>
                     <input type="text" onChange={handleName} ref={nameRef} placeholder='Wpisz imię' /><br/>
